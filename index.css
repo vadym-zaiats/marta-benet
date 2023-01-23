@@ -1,4 +1,4 @@
-.header {
+/* .header {
   max-width: 1200px;
   margin: 0 auto;
   background: url("./img/IMAGE.png");
@@ -200,4 +200,20 @@
   transform: scale(1.2);
   transition: 0.6s;
   color: rgb(189, 126, 53);
+} */
+.services {
+}
+.services_title {
+}
+.services_list {
+}
+.services_list-item {
+}
+.services_list-item__title {
+}
+.services_list-item__text {
+}
+.services_contact {
+}
+.services_call {
 }
