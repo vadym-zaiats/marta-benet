@@ -1,4 +1,4 @@
-/* .header {
+.header {
   max-width: 1200px;
   margin: 0 auto;
   background: url("./img/IMAGE.png");
@@ -259,7 +259,7 @@
   line-height: 25px;
   text-transform: lowercase;
   margin: 30px 0 150px;
-} */
+}
 .novelties {
   margin: 0 auto;
   max-width: 1200px;
@@ -272,6 +272,7 @@
   font-weight: 400;
   font-size: 53px;
   line-height: 80px;
+  padding-left: 40px;
 }
 .novelties_arrows {
   position: absolute;
@@ -313,10 +314,108 @@
   line-height: 25px;
   text-transform: lowercase;
   margin: 10px 0 70px 0;
+  margin-left: 40px;
 }
 .novelties_list {
   display: flex;
   justify-content: space-between;
 }
 .novelties_list-item {
+}
+.novelties_list-item__descr {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.novelties_list-item__price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.newsletter {
+  margin: 200px auto 30px;
+  max-width: 1200px;
+  text-align: center;
+  position: relative;
+}
+.newsletter_title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 80px;
+  margin-bottom: 120px;
+}
+
+.newsletter_title:before {
+  width: 90%;
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid rgba(11, 8, 5, 0.2);
+  top: -130px;
+  left: 5%;
+}
+
+.newsletter_title:after {
+  width: 60%;
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid rgba(11, 8, 5, 0.2);
+  bottom: 75%;
+  left: 20%;
+}
+.newsletter_content-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+}
+.newsletter_content-input {
+  margin: 30px 0 50px 0;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: white;
+  width: 20%;
+  height: 40px;
+}
+.newsletter_info {
+  display: flex;
+  margin: 150px 64px 34px 64px;
+}
+
+.newsletter_info:before {
+  width: 90%;
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid rgba(11, 8, 5, 0.2);
+  bottom: 20%;
+  left: 5%;
+}
+
+.newsletter_info-item {
+  margin-right: 16px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.newsletter_about {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 64px;
+}
+.newsletter_about-item {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
