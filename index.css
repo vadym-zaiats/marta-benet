@@ -222,8 +222,6 @@
   column-gap: 50px;
   margin: 64px 67px 170px;
 }
-.services_list-item {
-}
 .services_list-item__title {
   font-family: "Lato";
   font-style: normal;
@@ -319,8 +317,6 @@
 .novelties_list {
   display: flex;
   justify-content: space-between;
-}
-.novelties_list-item {
 }
 .novelties_list-item__descr {
   font-family: "Lato";
