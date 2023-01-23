@@ -129,3 +129,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+a {
+  color: black;
+}
