@@ -1,0 +1,35 @@
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: url("./img/IMAGE.png");
+}
+.header_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 40px 400px 40px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.header_nav-leftlist,
+.header_nav-rightlist {
+  display: flex;
+}
+
+.header_nav-leftlist li {
+  padding-left: 25.5px;
+}
+
+.header_nav-rightlist li {
+  padding-right: 25.5px;
+}
+
+.header_title {
+  text-align: center;
+  padding-bottom: 190px;
+  margin-left: 31%;
+}
