@@ -318,6 +318,11 @@
   display: flex;
   justify-content: space-between;
 }
+.novelties_list-item img {
+  height: 424px;
+  width: 339px;
+}
+
 .novelties_list-item__descr {
   font-family: "Lato";
   font-style: normal;
