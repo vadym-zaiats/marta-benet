@@ -262,7 +262,6 @@
   margin: 0 auto;
   max-width: 1200px;
   position: relative;
-  padding: 0 67px;
 }
 .novelties_title {
   font-family: "Lato";
@@ -270,7 +269,7 @@
   font-weight: 400;
   font-size: 53px;
   line-height: 80px;
-  padding-left: 40px;
+  padding-left: 11%;
 }
 .novelties_arrows {
   width: 112px;
@@ -318,11 +317,24 @@
   line-height: 25px;
   text-transform: lowercase;
   margin: 10px 0 70px 0;
-  margin-left: 40px;
+  margin-left: 9%;
 }
+
+.container {
+  margin: 0 auto;
+  background: rgba(254, 0, 0, 0.952);
+  width: 1057px;
+}
+
 .novelties_list {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  width: 2373px;
+  position: relative;
+  transition: all ease 1s;
+}
+.novelties_list-item {
 }
 .novelties_list-item img {
   height: 424px;
