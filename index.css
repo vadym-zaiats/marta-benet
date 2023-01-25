@@ -65,7 +65,7 @@ body {
 .artifacts_button-discover {
   margin: 60px 0;
   border: 1px solid #000000;
-  border-radius: 9999px;
+  border-radius: 9999px !important;
   background-color: #fff;
   text-transform: lowercase;
   padding: 5px 25px;
@@ -108,7 +108,7 @@ body {
   line-height: 25px;
   text-transform: lowercase;
   border: 1px solid #000000;
-  border-radius: 9999px;
+  border-radius: 9999px !important;
   padding: 5px 25px;
   background-color: #fff;
 }
@@ -159,7 +159,7 @@ body {
   line-height: 25px;
   text-transform: lowercase;
   border: 1px solid #000000;
-  border-radius: 9999px;
+  border-radius: 9999px !important;
   background-color: #fff;
   padding: 5px 25px;
 }
@@ -248,7 +248,7 @@ body {
 }
 .services_call {
   border: 1px solid #000000;
-  border-radius: 9999px;
+  border-radius: 9999px !important;
   background-color: #fff;
   text-transform: lowercase;
   padding: 5px 25px;
@@ -313,7 +313,7 @@ body {
 .novelties_viewall,
 .novelties_viewless {
   border: 1px solid #000000;
-  border-radius: 9999px;
+  border-radius: 9999px !important;
   background-color: #fff;
   text-transform: lowercase;
   padding: 2px 25px;
@@ -414,7 +414,7 @@ body {
 .newsletter_content-input {
   margin: 30px 0 50px 0;
   border: 1px solid black;
-  border-radius: 30px;
+  border-radius: 30px !important;
   background-color: white;
   width: 20%;
   height: 40px;
