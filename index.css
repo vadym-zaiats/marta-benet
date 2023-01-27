@@ -404,10 +404,8 @@ body {
   bottom: 75%;
   left: 20%;
 }
-.newsletter_content-accept__checkbox {
-}
-.newsletter_content-text,
-.newsletter_content-accept__label {
+
+.newsletter_content-text {
   font-family: "Solitreo";
   font-style: normal;
   font-weight: 400;
@@ -422,6 +420,53 @@ body {
   font-weight: 400;
   font-size: 17px;
   margin-bottom: 25px;
+  position: relative;
+}
+
+.newsletter_content-accept__checkbox {
+  -webkit-appearance: none;
+  /* position: absolute; */
+}
+
+.newsletter_content-accept__checkbox:checked
+  + .newsletter_content-accept__label:after {
+  opacity: 1;
+}
+.newsletter_content-accept__label {
+  font-family: "Solitreo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  user-select: none;
+}
+
+.newsletter_content-accept__label::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+  position: absolute;
+  left: 460px;
+  top: 1px;
+  z-index: 1;
+}
+.newsletter_content-accept__label::after {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: url("./img/noun-check-mark-1234343.svg") no-repeat;
+  background-size: 32px 32px;
+  position: absolute;
+  left: 452px;
+  top: -8px;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.1s linear;
 }
 
 .newsletter_content-input {
@@ -429,8 +474,10 @@ body {
   border: 1px solid black;
   border-radius: 30px !important;
   background-color: white;
-  width: 20%;
+  width: 27%;
   height: 40px;
+  padding-left: 15px;
+  font-size: 20px;
 }
 .newsletter_info {
   display: flex;
