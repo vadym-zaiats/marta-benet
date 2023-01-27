@@ -1,5 +1,3 @@
-body {
-}
 .header {
   max-width: 1200px;
   margin: 0 auto;
@@ -295,8 +293,7 @@ body {
   top: 14px;
   left: 14px;
 }
-.novelties_arrows-leftarrow__circle {
-}
+
 .novelties_arrows-rightarrow {
   position: relative;
 }
@@ -350,8 +347,6 @@ body {
   row-gap: 20px;
 }
 
-.novelties_list-item {
-}
 .novelties_list-item img {
   height: 424px;
   width: 339px;
@@ -440,6 +435,7 @@ body {
   line-height: 25px;
   margin-bottom: 25px;
   user-select: none;
+  position: relative;
 }
 
 .newsletter_content-accept__label::before {
@@ -450,8 +446,8 @@ body {
   border: 1px solid black;
   border-radius: 3px;
   position: absolute;
-  left: 460px;
-  top: 1px;
+  left: -25px;
+  top: 0px;
   z-index: 1;
 }
 .newsletter_content-accept__label::after {
@@ -462,8 +458,8 @@ body {
   background: url("./img/noun-check-mark-1234343.svg") no-repeat;
   background-size: 32px 32px;
   position: absolute;
-  left: 452px;
-  top: -8px;
+  left: -32px;
+  top: -10px;
   z-index: 2;
   opacity: 0;
   transition: opacity 0.1s linear;
