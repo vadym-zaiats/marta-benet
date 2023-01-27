@@ -2,6 +2,9 @@
 let offset = 0;
 let parent = document.querySelector(".event-listener");
 let sliderLine = document.querySelector(".novelties_list");
+let accept = document.querySelector(".newsletter_content-accept");
+let checkbox = document.querySelector(".newsletter_content-accept__checkbox");
+let acceptButton = document.querySelector(".newsletter_button");
 
 parent.addEventListener("click", (e) => {
   if (e.target.classList.contains("button-next")) {
@@ -34,4 +37,10 @@ parent.addEventListener("click", (e) => {
     document.querySelector(".novelties_viewall").classList.toggle("hidden");
     document.querySelector(".novelties_arrows").classList.toggle("hidden");
   }
+});
+
+accept.addEventListener("click", () => {
+  if (checkbox.checked) {
+    acceptButton.removeAttribute("disabled");
+  } else acceptButton.setAttribute("disabled", "true");
 });
