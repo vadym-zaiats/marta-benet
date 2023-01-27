@@ -404,15 +404,28 @@ body {
   bottom: 75%;
   left: 20%;
 }
-.newsletter_content-text {
+.newsletter_content-accept__checkbox {
+}
+.newsletter_content-text,
+.newsletter_content-accept__label {
   font-family: "Solitreo";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 25px;
+  margin-bottom: 25px;
 }
+
+.newsletter_content-accept {
+  font-family: "Solitreo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
 .newsletter_content-input {
-  margin: 30px 0 50px 0;
+  margin: 30px 0x 50px 0;
   border: 1px solid black;
   border-radius: 30px !important;
   background-color: white;
